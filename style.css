@@ -15,6 +15,95 @@ Text Domain: 37celsius-2024-child-bento-fngl
 Tags: 
 */
 
-/*
- * All CSS is added via Appearance > Editor > Styles > Additional CSS option
- */
+/* TEST */
+.entry-content {
+    border: 5px solid #f00;
+}
+
+/* NAVIGATION */
+
+/* Background gradient on navigation header */
+
+body > .wp-site-blocks > .is-position-sticky {
+    background: linear-gradient(
+        180deg,
+        var(--wp--preset--color--contrast) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+/* Responsive navigation */
+.wp-block-navigation__responsive-container {
+    background: #333 !important;
+}
+
+/* HOMEPAGE */
+
+/* shift image under navigation header on homepage */
+
+.home .wp-site-blocks .entry-content {
+    margin-top: -118px;
+}
+
+/* Gradient on first cover block */
+
+.home .entry-content > .wp-block-cover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 60%,
+        var(--wp--preset--color--contrast) 100%
+    );
+    pointer-events: none;
+}
+
+/* Carousel slider with client logos */
+.client-carousel {
+    img {
+        filter: grayscale(100%) brightness(1.5);
+        mix-blend-mode: multiply;
+    }
+}
+
+/* PAGES */
+
+/* Shift image under navigation header on page with featured image-template */
+
+.page-template-wp-custom-template-page-with-featured-image main {
+    margin-top: -118px;
+}
+
+/* shift title over featured image on page with featured image-template */
+
+.page-template-wp-custom-template-page-with-featured-image
+    .wp-block-post-featured-image
+    + .wp-block-group
+    .wp-block-post-title {
+    display: flex;
+    align-items: flex-end;
+    height: 50vh;
+    margin-top: -50vh;
+    padding: 3rem 0;
+}
+
+/* Gradient on featured image */
+.page-template-wp-custom-template-page-with-featured-image
+    .wp-block-post-featured-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 60%,
+        var(--wp--preset--color--contrast) 100%
+    );
+    pointer-events: none;
+}
