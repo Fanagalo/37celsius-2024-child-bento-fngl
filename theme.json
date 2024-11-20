@@ -1,0 +1,204 @@
+{
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "color": "#ffbf00",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Base / Two",
+                    "slug": "base-2"
+                },
+                {
+                    "color": "#333333",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "#595959",
+                    "name": "Contrast / Two",
+                    "slug": "contrast-2"
+                },
+                {
+                    "color": "#000000",
+                    "name": "Contrast / Three",
+                    "slug": "contrast-3"
+                },
+                {
+                    "color": "#594300",
+                    "name": "Accent",
+                    "slug": "accent"
+                },
+                {
+                    "color": "#997300",
+                    "name": "Accent / Two",
+                    "slug": "accent-2"
+                },
+                {
+                    "color": "#d9a300",
+                    "name": "Accent / Three",
+                    "slug": "accent-3"
+                },
+                {
+                    "color": "#ffe17f",
+                    "name": "Accent / Four",
+                    "slug": "accent-4"
+                },
+                {
+                    "color": "#d9d9d9",
+                    "name": "Accent / Five",
+                    "slug": "accent-5"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "300",
+                            "src": [
+                                "file:./assets/fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4iY1M2xLER.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "800",
+                            "src": [
+                                "file:./assets/fonts/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVIUwaERZjA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVIUwaERZjA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./assets/fonts/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVIUwaERZjA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "500",
+                            "src": [
+                                "file:./assets/fonts/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVIUwaERZjA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVIUwaERZjA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "italic",
+                            "fontWeight": "300",
+                            "src": [
+                                "file:./assets/fonts/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVIUwaERZjA.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                                "file:./assets/fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4iY1M2xLER.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4iY1M2xLER.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./assets/fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4iY1M2xLER.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "src": [
+                                "file:./assets/fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4iY1M2xLER.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "\"Open Sans\"",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4iY1M2xLER.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Open Sans\", sans-serif",
+                    "name": "Open Sans",
+                    "slug": "open-sans"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--contrast)",
+            "text": "var(--wp--preset--color--base-2)"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "background": "var(--wp--preset--color--base)",
+                    "text": "var(--wp--preset--color--contrast)"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--base-2)"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--base-2)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--open-sans)",
+                    "fontStyle": "normal",
+                    "fontWeight": "700"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--base-2)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--open-sans)"
+        }
+    },
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json"
+}
