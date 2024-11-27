@@ -160,3 +160,18 @@ body > .wp-site-blocks > .is-position-sticky {
     background-color: currentColor;
     margin-bottom: 2px;
 }
+
+/* FOOTER */
+
+/* footer headings */
+footer h2.has-medium-font-size {
+    font-size: 0.95rem !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* footer hover over 2 most right columns*/
+.wp-block-navigation
+    .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+    color: var(--wp--preset--color--base) !important;
+}
