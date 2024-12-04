@@ -163,11 +163,18 @@ body > .wp-site-blocks > .is-position-sticky {
 
 /* FOOTER */
 
+/* line on top of footer */
+
+footer.wp-block-template-part {
+    border-top: solid 1px var(--wp--preset--color--base);
+}
+
 /* footer headings */
 footer h2.has-medium-font-size {
     font-size: 0.95rem !important;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: var(--wp--preset--color--base) !important;
 }
 
 /* footer hover over 2 most right columns*/
