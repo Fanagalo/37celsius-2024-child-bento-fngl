@@ -15,11 +15,6 @@ Text Domain: 37celsius-2024-child-bento-fngl
 Tags: 
 */
 
-/* TEST */
-/* .entry-content {
-    border: 5px solid #f00;
-} */
-
 /* NAVIGATION */
 
 /* Background gradient on navigation header */
@@ -28,9 +23,8 @@ body > .wp-site-blocks > .is-position-sticky {
     background: linear-gradient(
         180deg,
         var(--wp--preset--color--contrast) 0%,
-        rgba(0, 0, 0, 0) 100%
+        var(--wp--preset--color--contrast) 100%
     );
-    backdrop-filter: blur(2px);
 }
 
 /* Responsive navigation */
