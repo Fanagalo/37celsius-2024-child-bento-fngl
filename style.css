@@ -23,7 +23,7 @@ body > .wp-site-blocks > .is-position-sticky {
     background: linear-gradient(
         180deg,
         var(--wp--preset--color--contrast) 0%,
-        var(--wp--preset--color--contrast) 100%
+        rgba(0, 0, 0, 0) 100%
     );
 }
 
