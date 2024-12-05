@@ -30,6 +30,7 @@ body > .wp-site-blocks > .is-position-sticky {
         var(--wp--preset--color--contrast) 0%,
         rgba(0, 0, 0, 0) 100%
     );
+    backdrop-filter: blur(2px);
 }
 
 /* Responsive navigation */
@@ -181,4 +182,10 @@ footer h2.has-medium-font-size {
 .wp-block-navigation
     .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
     color: var(--wp--preset--color--base) !important;
+}
+
+/* MISCELLANEOUS */
+
+.text-shadow {
+    text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
 }
