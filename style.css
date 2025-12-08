@@ -40,6 +40,15 @@ body > .wp-site-blocks > .is-position-sticky {
     margin-top: -118px;
 }
 
+/* Links in "drieluik" without underline */
+
+.drieluik a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 /* Gradient on first cover block */
 
 .home .entry-content > .wp-block-cover::after {
