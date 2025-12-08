@@ -43,11 +43,10 @@ body > .wp-site-blocks > .is-position-sticky {
 /* Links in "drieluik" without underline */
 
 .drieluik a {
-    color: red;
     text-decoration: none;
-    /* &:hover {
-        text-decoration: underline;
-    } */
+}
+.drieluik a:hover {
+    text-decoration: underline;
 }
 
 /* Gradient on first cover block */
