@@ -32,6 +32,14 @@ body > .wp-site-blocks > .is-position-sticky {
     background: #333 !important;
 }
 
+/** 
+ * Menu disable close button in submenu 
+ * .main-navigation is custom class assigned in block editor
+ */
+.main-navigation .menu-container__close-button {
+    display: none !important;
+}
+
 /* HOMEPAGE */
 
 /* shift image under navigation header on homepage */
