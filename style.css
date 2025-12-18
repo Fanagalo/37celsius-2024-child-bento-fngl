@@ -212,6 +212,7 @@ footer h2.has-medium-font-size {
     width: 85%;
     padding: 0.5rem 0.5rem;
     background-color: var(--wp--preset--color--base-2);
+    border: 1px #666 solid;
     font-family: "Open Sans", sans-serif !important;
     font-size: var(--wp--preset--font-size--small) !important;
 }
@@ -220,7 +221,7 @@ footer h2.has-medium-font-size {
     width: 75%;
     background-color: var(--wp--preset--color--base);
     border: 1px #666 solid;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 0.5rem;
     color: var(--wp--preset--color--contrast);
     font-family: "Open Sans", sans-serif !important;
