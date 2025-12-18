@@ -195,6 +195,46 @@ footer h2.has-medium-font-size {
     color: var(--wp--preset--color--base) !important;
 }
 
+/** 
+ * MC4WP formulier 
+ * voor meer specifieke focus class .mc4wp-form-1315 gebruiken
+*/
+.mc4wp-form {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.mc4wp-form label {
+    color: #ccc;
+    font-size: var(--wp--preset--font-size--small) !important;
+}
+
+.mc4wp-form input[type="email"] {
+    width: 85%;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--wp--preset--color--base-2);
+    font-family: "Open Sans", sans-serif !important;
+    font-size: var(--wp--preset--font-size--small) !important;
+}
+
+.mc4wp-form input[type="submit"] {
+    width: 75%;
+    background-color: var(--wp--preset--color--base);
+    border: 1px #666 solid;
+    border-radius: 12px;
+    padding: 0.5rem;
+    color: var(--wp--preset--color--contrast);
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mc4wp-form input[type="submit"]:hover {
+    color: var(--wp--preset--color--base-2);
+    background-color: var(--wp--preset--color--accent-3);
+}
+
 /* MISCELLANEOUS */
 
 .text-shadow {
