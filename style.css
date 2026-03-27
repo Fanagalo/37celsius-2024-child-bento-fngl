@@ -195,6 +195,77 @@ footer h2.has-medium-font-size {
     color: var(--wp--preset--color--base) !important;
 }
 
+/* BUTTONS & FORMS */
+
+/* Block Editor button block */
+.wp-block-button a {
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+.wp-block-button:hover {
+    opacity: 0.8;
+}
+
+/* pop-up-maker */
+
+.popmake.pum-responsive.pum-responsive-large.responsive.size-large.active.custom-position {
+    padding: 36px;
+}
+.pum-content {
+    * {
+        margin: 0;
+    }
+    h3 {
+        color: var(--wp--preset--color--contrast);
+        font-size: 3rem;
+        /* margin-bottom: 1rem; */
+    }
+    .form-image p {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: 1rem 0 2rem;
+    }
+
+    #urgent-mail {
+        width: 33%;
+        rotate: 8deg;
+        filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.3));
+    }
+    input[type="email"] {
+        font-size: var(--wp--preset--font-size--medium);
+        font-family: var(--wp--preset--font-family--open-sans);
+        width: 100%;
+        height: 40px;
+    }
+    .form-buttons {
+        p {
+            display: flex;
+            justify-content: space-between;
+
+            input:is([type="reset"], [type="button"], [type="submit"]),
+            button {
+                font-family: var(--wp--preset--font-family--open-sans);
+                font-size: var(--wp--preset--font-size--medium);
+                color: var(--wp--preset--color--base);
+                background: var(--wp--preset--color--contrast);
+                border: 0;
+                border-radius: 8px;
+                letter-spacing: 1px;
+                font-weight: 700;
+                padding: 0.6rem 1rem;
+                &:hover {
+                    opacity: 0.8;
+                }
+                a,
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
 /** 
  * MC4WP formulier 
  * voor meer specifieke focus class .mc4wp-form-1315 gebruiken
@@ -248,4 +319,10 @@ footer h2.has-medium-font-size {
 }
 .text-decoration-none a:hover {
     text-decoration: underline;
+}
+
+/* voorkomt dat een script een extra <p> veroorzaakt */
+p:has(script) {
+    margin: 0;
+    line-height: 0;
 }
